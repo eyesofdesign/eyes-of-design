@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Eyes of Design</title>
+  <meta name="title" content="ED">
+  
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Eyes of design" class="logo-light">
+
+        <img src="./assets/images/logo-dark.svg" width="74" height="24" alt="Eyes of design" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+       
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Eyes of design">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+            
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#Benefits" class="navbar-link">Benefits</a>
+          </li>
+
+
+          <li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#Our Value" class="navbar-link">Our Value</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary">Contact</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERo
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h2 hero-title">Welcome to Eyes of Design</h2>
+
+            <p class="hero-text">
+              Bringing Your Vision to Life, One Website at a Time.
+            </p>
+            <p> At Eyes of Design,
+             we specialize in creating stunning, user-friendly websites that help businesses shine online.
+              Our mission is to transform your digital presence into a powerful tool that reflects your brand and
+               engages your audience.</p><br>
+            <div class="btn-wrapper">
+
+              
+
+              <a href="#contact" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT Eyes Of Design
+      -->
+
+      <section class="section feature" id="about" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+<br>
+            <p class="section-subtitle" id="feautre-label">ABOUT Eyes Of Design</p>
+
+            <h2 class="h2 section-title">
+              We Are an Innovative Software Company
+            </h2>
+
+            <p class="section-text">
+              Eyes Of Design was founded with a passion for technology and creativity.
+               Our team of experienced developers, designers, and strategists work tirelessly to deliver
+                exceptional websites that not only look great but also perform brilliantly.
+                 We believe that your website is the mirror of your business,
+                and we are here to ensure it reflects the best version of you.
+            </p>
+
+            <li class="about-item">
+              <div class="accordion-card expanded" data-accordion>
+
+                <h3 class="card-title">
+                  <button class="accordion-btn" data-accordion-btn>
+                    <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                    <spna class="span h5">Our Mission</spna>
+                  </button>
+                </h3>
+
+                <p class="accordion-content">
+                  To empower businesses with top-notch digital solutions that drive growth,
+                   engage customers, and enhance brand identity.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="about-item">
+              <div class="accordion-card expanded" data-accordion>
+
+                <h3 class="card-title">
+                  <button class="accordion-btn" data-accordion-btn>
+                    <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                    <spna class="span h5">Our Vision</spna>
+                  </button>
+                </h3>
+
+                <p class="accordion-content">
+                  To be the leading provider of innovative web solutions,
+                   recognized for our creativity, quality, and client satisfaction.
+                </p>
+
+              </div>
+            </li>
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="Benefits" aria-labelledby="service-label">
+        <div class="container">
+<br>
+          <p class="section-subtitle" id="service-label">  Why You Should Have a Website?</p>
+
+          <h2 class="h2 section-title">
+            In today’s digital age, a website is essential for any business. Here’s why:
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Online Presence 24/7</h3>
+
+                <p class="card-text">
+                  Your website offers customers info anytime, anywhere.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title"> Credibility</h3>
+
+                <p class="card-text">
+                  A professional website builds trust and establishes your business as credible.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Brand Identity</h3>
+
+                <p class="card-text">
+                  Showcase your brand and differentiate yourself from competitors.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="people-circle-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Customer Engagement</h3>
+
+                <p class="card-text">
+                  Engage visitors with blogs, contact forms, and interactive features.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+<!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="Services" aria-labelledby="project-label">
+        <div class="container">
+<br>
+          <p class="section-subtitle" id="project-label">WHAT WE DO ?</p>
+
+          <h2 class="h2 section-title">
+            Our Services
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+                <div class="card-content">
+                  <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                  <h3 class="projecth3">
+                    <a href="#" class="card-title">Branding</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Elevate your brand with our comprehensive branding services. We craft impactful brand identities 
+                    that resonate with your target audience, including logo design and visually appealing content 
+                    creation. 
+                    Let us help you position your brand effectively in the market and strengthen your brand presence.
+                  </p>
+
+                 
+                </div>
+
+              </div>
+            </li>
+
+
+            <ul class="grid-list">
+
+              <li>
+                  <div class="card-content">
+                    <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="code-slash-outline"></ion-icon>
+                      </div>
+                    <h3 class="projecth3">
+                      <a href="#" class="card-title">Web Development</a>
+                    </h3>
+  
+                    <p class="card-text">
+                      Our skilled team specializes in building responsive websites,
+                       handling both front-end and back-end development.
+                        From custom designs to robust e-commerce solutions,
+                         we tailor our services to your needs. Our developers ensure seamless user experiences,
+                          enhancing your online presence and driving growth
+                    </p>
+  
+                   
+                  </div>
+  
+                </div>
+              </li>           
+
+  
+        </div>
+      </section>
+
+
+
+
+    
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="Our Value" aria-labelledby="about-label">
+        <br><br><br>
+        <div class="container">
+            <img src="assets/images/customerservice.jpg" >
+
+          <div class="about-content">
+            <br><br><br>
+            <p class="section-subtitle" id="about-label"><br><br>Why Choose Us?</p>
+
+            <h3>
+              Our work speaks for itself, delivering exceptional results that drive success.
+            </h3>
+            <br>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Expert Team</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our team of skilled professionals brings years of experience in web development and branding,
+                     ensuring top-quality results.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Innovative Designs</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We create visually stunning and user-friendly designs that captivate 
+                    your audience and enhance your brand's image.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Comprehensive Services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    From branding and design to development and support,
+                     we offer a full range of services to help your business thrive online.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Ongoing Support</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our commitment to your success doesn’t end with the launch.
+                    We provide ongoing support and maintenance to keep your website running smoothly.
+                  </p>
+
+                </div>
+              </li>
+
+              
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Client Satisfaction</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We prioritize client satisfaction,
+                     working closely with you to ensure your vision is realized and your goals are achieved.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      
+
+
+
+
+      <!-- 
+        - #contact
+      -->
+      <section class="section hero has-bg-image" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h2 hero-title">Contact Us</h2>
+              <br>
+            <p> We’re here to help! If you have any questions, feedback, or need assistance, please don’t hesitate to reach out to us through any of the following methods:
+            </p><br>
+           
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/insta.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/email (2).png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                      
+                    </button>
+                  </div>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+     
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Eyes of design">
+        </a>
+
+        <p class="footer-text">
+          &copy;Eyes Of Design &#x2764; 
+          <br> All rights reserved.
+        </p>
+
+       
+      </div>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+        <form action="email.php" method="post" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+        
+        
+      </body>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
